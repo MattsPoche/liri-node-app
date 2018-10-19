@@ -1,0 +1,19 @@
+{
+  "name": "liri-node-app",
+  "version": "0.1.0",
+  "description": "Command line app for various api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattsPoche/liri-node-app.git"
+  },
+  "author": "Matthew Poche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattsPoche/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/MattsPoche/liri-node-app#readme"
+}
