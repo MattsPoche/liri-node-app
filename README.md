@@ -19,13 +19,13 @@ Run instructions:
     node index.js spotify-this-song Close to the Edge //multiple arguments; queries spotify database for songs related to "Close to the Edge"
     
 List of commands:
-   * `concert-this`
+   * concert-this (arg: band/artist name)
 
-   * `spotify-this-song`
+   * spotify-this-song (arg: song name)
 
-   * `movie-this`
+   * movie-this (arg: movie title)
 
-   * `do-what-it-says`
+   * do-what-it-says (arg: n/a)
 
 APIs used in this project:
     * node-spotify-api
