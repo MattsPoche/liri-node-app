@@ -61,7 +61,7 @@ function movieInfo(){//sends a search request to the omdb api and displayes info
 }
 
 //do-what-it-says
-function whatItSays(){
+function whatItSays(){ //reads a command from a file and executes 
     fs.readFile("./random.txt", "utf8", (err, data) => {
         if(err) throw err;
         let output = data.split(",");
@@ -73,7 +73,7 @@ function whatItSays(){
     });
 }
 
-function defaultOutput(){
+function defaultOutput(){//no command / not valid command
     console.log("List of commands:");
     console.log(" concert-this [artist/band name]");
     console.log(" spotify-this-song [song name]");
@@ -81,8 +81,7 @@ function defaultOutput(){
     console.log(" do-what-it-says [n/a]");
 }
 
-//console.log(process.argv.length);
-function checkCommand(){
+function checkCommand(){//do what command is
     switch(command){
         case "concert-this":
             concertInfo();
