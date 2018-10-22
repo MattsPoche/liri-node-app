@@ -101,4 +101,5 @@ function checkCommand(){//do what command is
     }
 }
 
+//Run
 checkCommand();
