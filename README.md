@@ -8,15 +8,15 @@ Install instructions:
     to install dependencies.
     
 Run instructions:
-    Open a command line to the root directory and type:
-    node index.js //will display a list of accepted commands
+Open a command line to the root directory and type:
+node index.js //will display a list of accepted commands
 
-    The program takes any number of arguments
-    the first argument must be a command see list bellow
-    Every argument after will be parsed together to form a search term
+The program takes any number of arguments
+the first argument must be a command see list bellow
+Every argument after will be parsed together to form a search term
 
-    Example:
-    node index.js spotify-this-song Close to the Edge //multiple arguments; queries spotify database for songs related to "Close to the Edge"
+Example:
+node index.js spotify-this-song Close to the Edge //multiple arguments; queries spotify database for songs related to "Close to the Edge"
     
 List of commands:
    * concert-this (arg: band/artist name)
